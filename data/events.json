@@ -1,0 +1,28 @@
+{
+  "events": {
+    "2025-08-22": [
+      {
+        "title_ua": "Божественна Літургія з Благословенням на новий навчальний 2026 рік",
+        "title_lv": "Dievkalpojums ar svētību jaunajam mācību gadam 2026",
+        "title_en": "Divine Liturgy with Blessing for the New Academic Year 2026",
+        "time": "18:00",
+        "location": "Ķekava, Ķekava pilsēta, Кекавський край, LV-2123",
+        "description_ua": "Божественна Літургія. Опісля благословення учнів, студентів, дітей та їх батьків, вчителів, перед початком начального року. Чаювання та теплі бесіди з священником УГКЦ о. Романом Сапужаком",
+        "description_lv": "Dievkalpojums. Pēc svētības skolēniem, studentiem, bērniem un viņu vecākiem, skolotājiem pirms jaunā mācību gada sākuma. Tēja un siltas sarunas ar UGKC mācītāju Romānu Sapužaku",
+        "description_en": "Divine Liturgy. After blessing students, pupils, children and their parents, teachers before the start of the new academic year. Tea and warm conversations with UGCC priest Fr. Roman Sapuzhak"
+      }
+    ],
+    "2025-11-22": [
+      {
+        "title_ua": "Концерт українських творчих колективів",
+        "title_lv": "Ukraiņu radošo kolektīvu koncerts",
+        "title_en": "Concert of Ukrainian Creative Groups",
+        "time": "18:00",
+        "location": "Baložās kultūras nams",
+        "description_ua": "Концерт українських творчих колективів, виставка дитячих робіт - картин, листівок та виробів — і яскрава осіння експозиція розписаних гарбузів",
+        "description_lv": "Ukraiņu radošo kolektīvu koncerts, bērnu darbu izstāde - gleznas, atklātnes un izstrādājumi — un spilgta rudens izstāde ar krāsotiem ķirbjiem",
+        "description_en": "Concert of Ukrainian creative groups, exhibition of children's works - paintings, postcards and crafts — and a bright autumn exhibition of painted pumpkins"
+      }
+    ]
+  }
+} 
