@@ -7,6 +7,11 @@ const app = express();
 app.use(express.static(path.join(__dirname)));
 app.use(express.json());
 
+// Всегда открывать главную страницу (index.html) при открытии корня сайта
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 // Простой эндпоинт для проверки работы сервера
 app.get('/api/health', (req, res) => {
     res.json({ 

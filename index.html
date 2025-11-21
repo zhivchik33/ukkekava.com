@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://m.stripe.network; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://api.stripe.com https://formspree.io; frame-src https://js.stripe.com https://hooks.stripe.com;">
   <title>Название сайта</title>
     <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
@@ -58,7 +59,7 @@
       <div>kopiena Ķekavā</div>
     </div>
   </div>
-  <nav class="header-menu">
+  <nav class="header-menu" id="headerMenu">
     <a href="index.html" class="active" data-i18n="nav_home">Головна</a>
     <a href="history.html" data-i18n="nav_team">Історія створення</a>
   </nav>
@@ -73,6 +74,12 @@
     </div>
     <button class="header-btn" data-i18n="donate_btn">Підтримати нас</button>
   </div>
+  <!-- Бургер-меню для мобильных устройств -->
+  <button class="burger-menu" id="burgerMenu" aria-label="Меню">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </div>
 
 <section class="hero">
@@ -86,14 +93,14 @@
 </section>
 
 <!-- Секция "Наша мета" -->
-<section class="goals-section" style="margin-bottom:0; padding-bottom:0; padding-top: 40px !important;">
+<section class="goals-section">
   <div class="goals-header">
     <div class="goals-badge-wrap yellow-outline">
       <span class="goals-badge" data-i18n="goals_badge">Наша мета</span>
     </div>
     <h2 class="goals-title" data-i18n="goals_title">"Українська громада Кекави" створена з метою об'єднання, підтримки та розвитку української спільноти в Кекавському краї та Латвії. Наша діяльність спрямована на:</h2>
   </div>
-  <div class="goals-cards" style="margin-bottom:0;">
+  <div class="goals-cards">
     <div class="goal-card">
       <div class="goal-icon">☀️</div>
       <div class="goal-title" data-i18n="goal1_title">Збереження української культури та ідентичності</div>
@@ -135,7 +142,7 @@
 <!-- Секция "Заходи" -->
 
 <!-- Новая фотогалерея -->
-<section class="gallery-section" style="margin-top:0; padding-top: 80px; padding-bottom: 450px; background: linear-gradient(45deg, #ffd700 0%, #ffb347 100%); margin-bottom: 0;">
+<section class="gallery-section">
   <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
     <div class="gallery-header" style="text-align: center; margin-bottom: 0; margin-top: 40px;">
       <h2 style="font-size: 3rem; color: #2c3e50; margin-bottom: 20px; font-weight: 700;" data-i18n="nav_events">Заходи</h2>
@@ -247,7 +254,7 @@
 </section>
 
     <!-- Секция "Підписуйтесь на наші соціальні мережі" -->
-    <section class="social-section" style="margin-top: 0; padding: 120px 0 0 0; background: linear-gradient(45deg, #7794b6 0%, #dffaff 100%);">
+    <section class="social-section">
   <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
     <div class="social-content" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
       
@@ -918,6 +925,39 @@ if (donateForm) donateForm.onsubmit = async function(e) {
 </button>
 
 <script>
+  // Бургер-меню функциональность
+  document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.getElementById('burgerMenu');
+    const headerMenu = document.getElementById('headerMenu');
+    
+    if (burgerMenu && headerMenu) {
+      burgerMenu.addEventListener('click', function() {
+        burgerMenu.classList.toggle('active');
+        headerMenu.classList.toggle('active');
+        document.body.style.overflow = headerMenu.classList.contains('active') ? 'hidden' : '';
+      });
+      
+      // Закрытие меню при клике на ссылку
+      const menuLinks = headerMenu.querySelectorAll('a');
+      menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          burgerMenu.classList.remove('active');
+          headerMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+      
+      // Закрытие меню при клике вне его
+      document.addEventListener('click', function(e) {
+        if (!burgerMenu.contains(e.target) && !headerMenu.contains(e.target)) {
+          burgerMenu.classList.remove('active');
+          headerMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+    }
+  });
+  
   // Открытие модального окна по нижней кнопке
   document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById('contact-modal');

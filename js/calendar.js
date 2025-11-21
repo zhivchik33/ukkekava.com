@@ -16,37 +16,58 @@ class EventCalendar {
 
     bindEvents() {
         // Навигация по месяцам
-        document.getElementById('prevMonth').addEventListener('click', () => {
-            this.currentDate.setMonth(this.currentDate.getMonth() - 1);
-            this.renderCalendar();
-        });
+        const prevMonthBtn = document.getElementById('prevMonth');
+        if (prevMonthBtn) {
+            prevMonthBtn.addEventListener('click', () => {
+                this.currentDate.setMonth(this.currentDate.getMonth() - 1);
+                this.renderCalendar();
+            });
+        }
 
-        document.getElementById('nextMonth').addEventListener('click', () => {
-            this.currentDate.setMonth(this.currentDate.getMonth() + 1);
-            this.renderCalendar();
-        });
+        const nextMonthBtn = document.getElementById('nextMonth');
+        if (nextMonthBtn) {
+            nextMonthBtn.addEventListener('click', () => {
+                this.currentDate.setMonth(this.currentDate.getMonth() + 1);
+                this.renderCalendar();
+            });
+        }
 
         // Модальное окно событий
-        document.getElementById('eventModalClose').addEventListener('click', () => {
-            this.closeEventModal();
-        });
+        const eventModalClose = document.getElementById('eventModalClose');
+        if (eventModalClose) {
+            eventModalClose.addEventListener('click', () => {
+                this.closeEventModal();
+            });
+        }
 
         // Закрытие модального окна по клику вне его
-        document.getElementById('eventModal').addEventListener('click', (e) => {
-            if (e.target.id === 'eventModal') {
-                this.closeEventModal();
-            }
-        });
+        const eventModal = document.getElementById('eventModal');
+        if (eventModal) {
+            eventModal.addEventListener('click', (e) => {
+                if (e.target.id === 'eventModal') {
+                    this.closeEventModal();
+                }
+            });
+        }
     }
 
     renderCalendar() {
         const year = this.currentDate.getFullYear();
         const month = this.currentDate.getMonth();
         
+        // Проверяем наличие элементов календаря на странице
+        const currentMonthEl = document.getElementById('currentMonth');
+        const calendarGrid = document.getElementById('calendarGrid');
+        
+        if (!currentMonthEl || !calendarGrid) {
+            // Календарь не найден на этой странице, выходим
+            return;
+        }
+        
         // Обновляем заголовок месяца по текущему языку
         const lang = (window.currentLang || 'ua');
         const monthNames = (window.translations && window.translations[lang] && window.translations[lang].months) || ['January','February','March','April','May','June','July','August','September','October','November','December'];
-        document.getElementById('currentMonth').textContent = `${monthNames[month]} ${year}`;
+        currentMonthEl.textContent = `${monthNames[month]} ${year}`;
 
         // Получаем первый день месяца и количество дней
         const firstDay = new Date(year, month, 1);
@@ -58,7 +79,6 @@ class EventCalendar {
         const startOffset = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
         startDate.setDate(startDate.getDate() - startOffset);
 
-        const calendarGrid = document.getElementById('calendarGrid');
         calendarGrid.innerHTML = '';
 
         // Генерируем дни календаря
@@ -149,7 +169,20 @@ class EventCalendar {
         // Сохраняем текущее событие для добавления в календарь
         this.currentEvent = event;
 
-        document.getElementById('eventModal').style.display = 'block';
+        const modal = document.getElementById('eventModal');
+        const modalContent = modal.querySelector('.modal-content');
+        
+        // Устанавливаем правильные стили для центрирования
+        modal.style.display = 'flex';
+        modal.style.alignItems = 'center';
+        modal.style.justifyContent = 'center';
+        
+        // Убираем абсолютное позиционирование из modal-content
+        modalContent.style.position = 'relative';
+        modalContent.style.top = 'auto';
+        modalContent.style.left = 'auto';
+        modalContent.style.transform = 'none';
+        modalContent.style.margin = '0';
     }
 
     closeEventModal() {
@@ -254,7 +287,7 @@ END:VCALENDAR`;
     }
 
     formatDate(date) {
-        // Используем локальные компоненты даты, чтобы избежать проблем с часовыми поясами
+            // Используем локальные компоненты даты, чтобы избежать проблем с часовыми поясами
         const year = date.getFullYear();
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
@@ -362,5 +395,9 @@ END:VCALENDAR`;
 
 // Инициализация календаря при загрузке страницы
 document.addEventListener('DOMContentLoaded', async () => {
-    window.calendar = new EventCalendar();
+    // Проверяем наличие элементов календаря на странице
+    const calendarContainer = document.getElementById('calendarGrid');
+    if (calendarContainer) {
+        window.calendar = new EventCalendar();
+    }
 }); 

@@ -14,31 +14,43 @@ class PhotoGallery {
 
     bindEvents() {
         // Обработчики для карточек категорий
-        document.querySelectorAll('.gallery-category').forEach(card => {
-            card.addEventListener('click', (e) => {
-                const category = e.currentTarget.dataset.category;
-                this.openGallery(category);
+        const galleryCategories = document.querySelectorAll('.gallery-category');
+        if (galleryCategories.length > 0) {
+            galleryCategories.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    const category = e.currentTarget.dataset.category;
+                    this.openGallery(category);
+                });
             });
-        });
+        }
 
         // Обработчики для кнопок фильтрации по годам
-        document.querySelectorAll('.year-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                this.filterByYear(e.target.dataset.year);
+        const yearButtons = document.querySelectorAll('.year-btn');
+        if (yearButtons.length > 0) {
+            yearButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    this.filterByYear(e.target.dataset.year);
+                });
             });
-        });
+        }
 
         // Закрытие модального окна
-        document.querySelector('.gallery-close').addEventListener('click', () => {
-            this.closeGallery();
-        });
+        const galleryClose = document.querySelector('.gallery-close');
+        if (galleryClose) {
+            galleryClose.addEventListener('click', () => {
+                this.closeGallery();
+            });
+        }
 
         // Закрытие по клику вне модального окна
-        document.getElementById('gallery-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'gallery-modal') {
-                this.closeGallery();
-            }
-        });
+        const galleryModal = document.getElementById('gallery-modal');
+        if (galleryModal) {
+            galleryModal.addEventListener('click', (e) => {
+                if (e.target.id === 'gallery-modal') {
+                    this.closeGallery();
+                }
+            });
+        }
     }
 
     loadPhotos() {
@@ -308,20 +320,28 @@ class PhotoGallery {
 
 // Инициализация галереи при загрузке страницы
 document.addEventListener('DOMContentLoaded', () => {
-    new PhotoGallery();
+    // Проверяем наличие элементов галереи на странице
+    const galleryCategories = document.querySelectorAll('.gallery-category');
+    const galleryModal = document.getElementById('gallery-modal');
+    if (galleryCategories.length > 0 || galleryModal) {
+        new PhotoGallery();
+    }
 });
 
 // Добавление hover эффектов для карточек категорий
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.gallery-category').forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            card.style.transform = 'translateY(-10px)';
-            card.style.boxShadow = '0 20px 40px rgba(0,0,0,0.2)';
-        });
+    const galleryCategories = document.querySelectorAll('.gallery-category');
+    if (galleryCategories.length > 0) {
+        galleryCategories.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px)';
+                card.style.boxShadow = '0 20px 40px rgba(0,0,0,0.2)';
+            });
 
-        card.addEventListener('mouseleave', () => {
-            card.style.transform = 'translateY(0)';
-            card.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            });
         });
-    });
+    }
 }); 
