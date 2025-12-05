@@ -49,6 +49,13 @@ class EventCalendar {
                 }
             });
         }
+        
+        // Обновление стилей модального окна при изменении размера окна
+        window.addEventListener('resize', () => {
+            if (this.selectedDate && eventModal && eventModal.style.display !== 'none') {
+                this.openEventModal(this.selectedDate);
+            }
+        });
     }
 
     renderCalendar() {
@@ -171,18 +178,61 @@ class EventCalendar {
 
         const modal = document.getElementById('eventModal');
         const modalContent = modal.querySelector('.modal-content');
+        const isMobile = window.innerWidth <= 768;
+        const isSmallMobile = window.innerWidth <= 480;
         
         // Устанавливаем правильные стили для центрирования
         modal.style.display = 'flex';
-        modal.style.alignItems = 'center';
-        modal.style.justifyContent = 'center';
+        if (isMobile) {
+            modal.style.alignItems = 'flex-start';
+            modal.style.justifyContent = 'center';
+            modal.style.padding = isSmallMobile ? '5px' : '10px 5px';
+            modal.style.overflowY = 'auto';
+        } else {
+            modal.style.alignItems = 'center';
+            modal.style.justifyContent = 'center';
+        }
         
         // Убираем абсолютное позиционирование из modal-content
         modalContent.style.position = 'relative';
         modalContent.style.top = 'auto';
         modalContent.style.left = 'auto';
         modalContent.style.transform = 'none';
-        modalContent.style.margin = '0';
+        
+        // Оптимизация для мобильных устройств - квадратная форма
+        if (isSmallMobile) {
+            modal.style.padding = '8px';
+            modal.style.alignItems = 'center';
+            modal.style.justifyContent = 'center';
+            const viewportWidth = window.innerWidth;
+            modalContent.style.maxWidth = '92vw';
+            modalContent.style.width = '92vw';
+            modalContent.style.minHeight = '92vw';
+            modalContent.style.aspectRatio = '1';
+            modalContent.style.padding = '18px 15px';
+            modalContent.style.maxHeight = '92vh';
+            modalContent.style.margin = '0 auto';
+            modalContent.style.display = 'flex';
+            modalContent.style.flexDirection = 'column';
+        } else if (isMobile) {
+            modal.style.padding = '10px';
+            modal.style.alignItems = 'center';
+            modal.style.justifyContent = 'center';
+            const viewportWidth = window.innerWidth;
+            modalContent.style.maxWidth = '90vw';
+            modalContent.style.width = '90vw';
+            modalContent.style.minHeight = '90vw';
+            modalContent.style.aspectRatio = '1';
+            modalContent.style.padding = '20px 18px';
+            modalContent.style.maxHeight = '90vh';
+            modalContent.style.margin = '0 auto';
+            modalContent.style.display = 'flex';
+            modalContent.style.flexDirection = 'column';
+        } else {
+            modalContent.style.margin = '0';
+            modalContent.style.aspectRatio = 'auto';
+            modalContent.style.minHeight = 'auto';
+        }
     }
 
     closeEventModal() {

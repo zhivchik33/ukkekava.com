@@ -101,6 +101,11 @@ document.addEventListener('DOMContentLoaded', function() {
         el.textContent = window.translations[lang][key];
       }
     });
+    
+    // Обновление текстов в фотогалерее при смене языка
+    if (window.photoGallery && typeof window.photoGallery.updateGalleryLanguage === 'function') {
+      window.photoGallery.updateGalleryLanguage();
+    }
 
     // placeholders and inputs in contact form
     const nameInput = document.getElementById('formName');

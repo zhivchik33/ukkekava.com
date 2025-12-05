@@ -36,7 +36,7 @@ class PhotoGallery {
 
         // Закрытие модального окна
         const galleryClose = document.querySelector('.gallery-close');
-        if (galleryClose) {
+        if (galleryClose) {      
             galleryClose.addEventListener('click', () => {
                 this.closeGallery();
             });
@@ -61,11 +61,43 @@ class PhotoGallery {
         this.photos = {
             culture: {
                 2022: [
-                    { src: 'images/events/culture_2022_1.jpg' },
-                    { src: 'images/events/culture_2022_2.jpg' },
-                    { src: 'images/events/culture_2022_3.jpg' },
-                    { src: 'images/events/culture_2022_4.jpg' },
-                    { src: 'images/events/culture_2022_5.jpg' },
+                    { src: 'images/events/culture_2022_1.jpeg' },
+                    { src: 'images/events/culture_2022_2.jpeg' },
+                    { src: 'images/events/culture_2022_3.jpeg' },
+                    { src: 'images/events/culture_2022_4.jpeg' },
+                    { src: 'images/events/culture_2022_5.jpeg' }
+                ],
+                2023: [
+                    { src: 'images/events/culture_2023_1.jpeg' },
+                    { src: 'images/events/culture_2023_2.jpeg' },
+                    { src: 'images/events/culture_2023_3.jpeg' },
+                    { src: 'images/events/culture_2023_4.jpeg' },
+                    { src: 'images/events/culture_2023_5.jpeg' },
+                    { src: 'images/events/culture_2023_6.jpeg' }
+                ],
+                2024: [
+                    { src: 'images/events/culture_2024_1.jpg' },
+                    { src: 'images/events/culture_2024_2.jpg' },
+                    { src: 'images/events/culture_2024_3.jpg' },
+                    { src: 'images/events/culture_2024_4.jpg' }
+                    
+                ],
+                2025: [
+                    { src: 'images/events/culture_2025_1.jpg' },
+                    { src: 'images/events/culture_2025_2.jpg' },
+                    { src: 'images/events/culture_2025_3.jpg' },
+                    { src: 'images/events/culture_2025_4.jpg' },
+                    { src: 'images/events/culture_2025_5.jpg' },
+                    { src: 'images/events/culture_2025_6.jpg' },
+                    { src: 'images/events/culture_2025_7.jpeg' },
+                    { src: 'images/events/culture_2025_8.jpeg' },
+                    { src: 'images/events/culture_2025_9.jpeg' },
+                    { src: 'images/events/culture_2025_10.jpeg' }
+                ]
+            },
+            social: {
+                2022: [
+                    
                     { src: 'images/events/culture_2022_6.jpg' },
                     { src: 'images/events/culture_2022_7.jpg' },
                     { src: 'images/events/culture_2022_8.jpg' },
@@ -73,29 +105,50 @@ class PhotoGallery {
                     { src: 'images/events/culture_2022_10.jpg' }
                 ],
                 2023: [
-                    // Добавьте фотографии 2023 года
+                    { src: 'images/events/social_2023_1.jpeg' },
+                    { src: 'images/events/social_2023_2.jpeg' },
+                    { src: 'images/events/social_2023_3.jpeg' },
+                    { src: 'images/events/social_2023_4.jpeg' },
+                    { src: 'images/events/social_2023_5.jpeg' },
+                    { src: 'images/events/social_2023_6.jpeg' },
+                    { src: 'images/events/social_2023_7.jpeg' },
+                    { src: 'images/events/social_2023_8.jpeg' }
                 ],
                 2024: [
-                    // Добавьте фотографии 2024 года
+                    { src: 'images/events/social_2024_1.jpg' },
+                    { src: 'images/events/social_2024_2.jpg' },
+                    { src: 'images/events/social_2024_3.jpg' },
+                    { src: 'images/events/social_2024_4.jpg' },
+                    { src: 'images/events/social_2024_5.jpg' },
+                    { src: 'images/events/social_2024_6.jpg' },
+                    { src: 'images/events/social_2024_7.jpg' },
+                    { src: 'images/events/social_2024_8.jpg' }
+                    
                 ],
                 2025: [
-                    // Добавьте фотографии 2025 года
-                ]
-            },
-            social: {
-                2022: [
-                    { src: 'images/events/social_2022_1.jpg' },
-                    { src: 'images/events/social_2022_2.jpg' },
-                    { src: 'images/events/social_2022_3.jpg' }
-                ],
-                2023: [
-                    // Добавьте фотографии 2023 года
-                ],
-                2024: [
-                    // Добавьте фотографии 2024 года
-                ],
-                2025: [
-                    // Добавьте фотографии 2025 года
+                    { src: 'images/events/social_2025_1.jpg' },
+                    { src: 'images/events/social_2025_2.jpg' },
+                    { src: 'images/events/social_2025_3.jpg' },
+                    { src: 'images/events/social_2025_4.jpg' },
+                    { src: 'images/events/social_2025_5.jpg' },
+                    { src: 'images/events/social_2025_6.jpg' },
+                    { src: 'images/events/social_2025_7.jpg' },
+                    { src: 'images/events/social_2025_8.jpg' },
+                    { src: 'images/events/social_2025_9.jpeg' },
+                    { src: 'images/events/social_2025_10.jpeg' },
+                    { src: 'images/events/social_2025_11.jpeg' },
+                    { src: 'images/events/social_2025_12.jpeg' },
+                    { src: 'images/events/social_2025_13.jpeg' },
+                    { src: 'images/events/social_2025_14.jpeg' },
+                    { src: 'images/events/social_2025_15.jpeg' },
+                    { src: 'images/events/social_2025_16.jpeg' },
+                    { src: 'images/events/social_2025_17.jpeg' },
+                    { src: 'images/events/social_2025_18.jpeg' },
+                    { src: 'images/events/social_2025_19.jpeg' },
+                    { src: 'images/events/social_2025_20.jpeg' },
+                    { src: 'images/events/social_2025_21.jpeg' },
+                    { src: 'images/events/social_2025_22.jpeg' },
+                    { src: 'images/events/social_2025_23.jpeg' }
                 ]
             },
             education: {
@@ -108,13 +161,29 @@ class PhotoGallery {
                     { src: 'images/events/education_2022_6.jpg' }
                 ],
                 2023: [
-                    // Добавьте фотографии 2023 года
+                    { src: 'images/events/education_2023_1.jpeg' },
+                    { src: 'images/events/education_2023_2.jpeg' },
+                    { src: 'images/events/education_2023_3.jpeg' },
+                    { src: 'images/events/education_2023_4.jpeg' },
+                    { src: 'images/events/education_2023_5.jpeg' }
                 ],
                 2024: [
+                    { src: 'images/events/education_2024_1.jpg' },
+                    { src: 'images/events/education_2024_2.jpg' }
+                  
                     // Добавьте фотографии 2024 года
                 ],
                 2025: [
-                    // Добавьте фотографии 2025 года
+                    { src: 'images/events/edukation_2025_1.jpg' },
+                    { src: 'images/events/edukation_2025_2.jpg' },
+                    { src: 'images/events/edukation_2025_3.jpg' },
+                    { src: 'images/events/edukation_2025_4.jpg' },
+                    { src: 'images/events/edukation_2025_5.jpg' },
+                    { src: 'images/events/edukation_2025_6.jpeg' },
+                    { src: 'images/events/edukation_2025_7.jpeg' },
+                    { src: 'images/events/edukation_2025_8.jpeg' },
+                    { src: 'images/events/edukation_2025_9.jpeg' },
+                    { src: 'images/events/education_2025_10.jpeg' }
                 ]
             },
             humanitarian: {
@@ -129,16 +198,22 @@ class PhotoGallery {
                     { src: 'images/events/humanitarian_2022_8.jpg' },    
                     { src: 'images/events/humanitarian_2022_9.jpg' },    
                     { src: 'images/events/humanitarian_2022_10.jpg' }   
-                       
+                      
                 ],
                 2023: [
-                    // Добавьте фотографии 2023 года
+                    { src: 'images/events/humanitarian_2023_1.jpeg' },
+                    { src: 'images/events/humanitarian_2023_2.jpeg' },
+                    { src: 'images/events/humanitarian_2023_3.jpeg' }
+                    
                 ],
                 2024: [
-                    // Добавьте фотографии 2024 года
+                    { src: 'images/events/humanitarian_2024_1.jpeg' }
                 ],
                 2025: [
-                    // Добавьте фотографии 2025 года
+                    { src: 'images/events/humanitarian_2025_1.jpg' },
+                    { src: 'images/events/humanitarian_2025_2.jpg' },
+                    { src: 'images/events/humanitarian_2025_3.jpg' },
+                    { src: 'images/events/humanitarian_2025_4.jpeg' }
                 ]
             },
             psychology: {
@@ -146,13 +221,26 @@ class PhotoGallery {
                     { src: 'images/events/psychology_2022_1.jpg' }
                 ],
                 2023: [
-                    // Добавьте фотографии 2023 года
+                    { src: 'images/events/psychology_2023_1.jpeg' },
+                    { src: 'images/events/psychology_2023_2.jpeg' },
+                    { src: 'images/events/psychology_2023_3.jpeg' },
+                    { src: 'images/events/psychology_2023_4.jpeg' },
+                    { src: 'images/events/psychology_2023_5.jpeg' },
+                    { src: 'images/events/psychology_2023_6.jpeg' }
                 ],
                 2024: [
-                    // Добавьте фотографии 2024 года
+                    { src: 'images/events/psychology_2024_1.jpg' },
+                    { src: 'images/events/psychology_2024_2.jpg' },
+                    { src: 'images/events/psychology_2024_3.jpg' },
+                    { src: 'images/events/psychology_2024_4.jpg' },
+                    { src: 'images/events/psychology_2024_5.jpg' },
+                    { src: 'images/events/psychology_2024_6.jpg' },
+                    { src: 'images/events/psychology_2024_7.jpg' }
+                 
+                    
                 ],
                 2025: [
-                    // Добавьте фотографии 2025 года
+                    { src: 'images/events/psychologiy_2025_1.jpg.jpeg' }
                 ]
             },
             civic: {
@@ -166,13 +254,28 @@ class PhotoGallery {
                     { src: 'images/events/civic_2022_7.jpg' }
                 ],
                 2023: [
-                    // Добавьте фотографии 2023 года
+                    { src: 'images/events/civic_2023_1.jpeg' },
+                    { src: 'images/events/civic_2023_2.jpeg' },
+                    { src: 'images/events/civic_2023_3.jpeg' },
+                    { src: 'images/events/civic_2023_4.jpeg' },
+                    { src: 'images/events/civic_2023_5.jpeg' },
+                    { src: 'images/events/civic_2023_6.jpeg' }
                 ],
                 2024: [
-                    // Добавьте фотографии 2024 года
+                    { src: 'images/events/civic_2024_1.jpg' },
+                    { src: 'images/events/civic_2024_2.jpg' },
+                    { src: 'images/events/civic_2024_3.jpg' },
+                    { src: 'images/events/civic_2024_4.jpg' },
+                    { src: 'images/events/civic_2024_5.jpg' }
+                   
                 ],
                 2025: [
-                    // Добавьте фотографии 2025 года
+                    { src: 'images/events/civic_2025_1.jpg' },
+                    { src: 'images/events/civic_2025_2.jpg' },
+                    { src: 'images/events/civic_2025_3.jpeg' },
+                    { src: 'images/events/civic_2025_4.jpeg' },
+                    { src: 'images/events/civic_2025_5.jpeg' },
+                    { src: 'images/events/civic_2025_6.jpeg' }
                 ]
             }
         };
@@ -182,27 +285,8 @@ class PhotoGallery {
         this.currentCategory = category;
         this.currentYear = 'all';
         
-        // Установка заголовка и описания
-        const categoryNames = {
-            culture: 'Збереження української культури та ідентичності',
-            social: 'Соціальна підтримка та інтеграція українців',
-            education: 'Освітній розвиток',
-            humanitarian: 'Гуманітарна місія',
-            psychology: 'Психологічна підтримка',
-            civic: 'Громадянська активність і партнерство'
-        };
-
-        const categoryDescriptions = {
-            culture: 'Популяризація українських традицій, мови, мистецтва та історичної спадщини',
-            social: 'Сприяння адаптації в новому середовищі та побудова доброзичливих міжнаціональних стосунків',
-            education: 'Організація неформальної освіти для дітей і дорослих, мовних курсів та творчих проєктів',
-            humanitarian: 'Допомога вразливим категоріям населення та підтримка українських родин',
-            psychology: 'Створення безпечного простору для відновлення та емоційної стабілізації',
-            civic: 'Розвиток громадянської свідомості та співпраця з місцевими організаціями'
-        };
-
-        document.getElementById('gallery-title').textContent = categoryNames[category];
-        document.getElementById('gallery-description').textContent = categoryDescriptions[category];
+        // Установка заголовка и описания с использованием переводов
+        this.updateGalleryTexts(category);
 
         // Сброс активной кнопки года
         document.querySelectorAll('.year-btn').forEach(btn => {
@@ -219,10 +303,64 @@ class PhotoGallery {
         document.getElementById('gallery-modal').style.display = 'flex';
     }
 
+    updateGalleryTexts(category) {
+        // Получаем текущий язык
+        const currentLang = window.currentLang || 'ua';
+        
+        // Маппинг категорий на ключи переводов
+        const categoryTranslationKeys = {
+            culture: {
+                title: 'events_cat_culture_title',
+                desc: 'events_cat_culture_desc'
+            },
+            social: {
+                title: 'events_cat_social_title',
+                desc: 'events_cat_social_desc'
+            },
+            education: {
+                title: 'events_cat_education_title',
+                desc: 'events_cat_education_desc'
+            },
+            humanitarian: {
+                title: 'events_cat_humanitarian_title',
+                desc: 'events_cat_humanitarian_desc'
+            },
+            psychology: {
+                title: 'events_cat_psychology_title',
+                desc: 'events_cat_psychology_desc'
+            },
+            civic: {
+                title: 'events_cat_civic_title',
+                desc: 'events_cat_civic_desc'
+            }
+        };
+
+        const keys = categoryTranslationKeys[category];
+        if (keys && window.translations && window.translations[currentLang]) {
+            const titleElement = document.getElementById('gallery-title');
+            const descElement = document.getElementById('gallery-description');
+            
+            if (titleElement && window.translations[currentLang][keys.title]) {
+                titleElement.textContent = window.translations[currentLang][keys.title];
+            }
+            
+            if (descElement && window.translations[currentLang][keys.desc]) {
+                descElement.textContent = window.translations[currentLang][keys.desc];
+            }
+        }
+    }
+
     closeGallery() {
         document.getElementById('gallery-modal').style.display = 'none';
         this.currentCategory = null;
         this.currentYear = 'all';
+    }
+
+    // Метод для обновления текстов галереи при смене языка
+    updateGalleryLanguage() {
+        if (this.currentCategory) {
+            this.updateGalleryTexts(this.currentCategory);
+        }
     }
 
     filterByYear(year) {
@@ -284,12 +422,14 @@ class PhotoGallery {
 
             photoElement.innerHTML = `
                 <div style="height: 250px; background: linear-gradient(135deg, #ffc400 0%, #ff8c00 100%); display: flex; align-items: center; justify-content: center; position: relative;">
-                    <img src="${photo.src}" alt="Фото" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="${photo.src}" alt="Фото" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none; user-select: none; -webkit-user-drag: none;">
                 </div>
             `;
 
-            photoElement.addEventListener('click', () => {
-                this.openPhotoViewer(photosToShow, index);
+            photoElement.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                // Прибрано відображення плашки з шляхом до фото
             });
 
             photoElement.addEventListener('mouseenter', () => {
@@ -312,9 +452,8 @@ class PhotoGallery {
     }
 
     openPhotoViewer(photos, currentIndex) {
-        // Здесь можно добавить полноэкранный просмотр фотографий
-        const photo = photos[currentIndex];
-        alert(`Просмотр фотографии\n\nПуть: ${photo.src}`);
+        // Метод залишено для сумісності, але плашка з шляхом до фото більше не показується
+        // Тут можна додати повноекранний перегляд фотографій у майбутньому
     }
 }
 
@@ -324,7 +463,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const galleryCategories = document.querySelectorAll('.gallery-category');
     const galleryModal = document.getElementById('gallery-modal');
     if (galleryCategories.length > 0 || galleryModal) {
-        new PhotoGallery();
+        window.photoGallery = new PhotoGallery();
     }
 });
 
