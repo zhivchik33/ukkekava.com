@@ -102,6 +102,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
+    // Обновление title страницы при смене языка
+    const isHistoryPage = window.location.pathname.includes('history.html');
+    const titleKey = isHistoryPage ? 'site_title_history' : 'site_title';
+    if (window.translations[lang] && window.translations[lang][titleKey]) {
+      document.title = window.translations[lang][titleKey];
+    }
+    
     // Обновление текстов в фотогалерее при смене языка
     if (window.photoGallery && typeof window.photoGallery.updateGalleryLanguage === 'function') {
       window.photoGallery.updateGalleryLanguage();
@@ -163,6 +170,13 @@ document.addEventListener('DOMContentLoaded', function() {
   setLanguage(currentLang);
   window.currentLang = currentLang;
   updateLangButton(currentLang);
+  
+  // Устанавливаем начальный title при загрузке страницы
+  const isHistoryPage = window.location.pathname.includes('history.html');
+  const titleKey = isHistoryPage ? 'site_title_history' : 'site_title';
+  if (window.translations && window.translations[currentLang] && window.translations[currentLang][titleKey]) {
+    document.title = window.translations[currentLang][titleKey];
+  }
   feather.replace();
   // --- МОДАЛЬНОЕ ОКНО ---
   const openContactModalBtn = document.getElementById('openContactModal');

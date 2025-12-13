@@ -1,5 +1,7 @@
 window.translations = {
   ua: {
+    site_title: 'Українська громада Кекави',
+    site_title_history: 'Українська громада Кекави - Історія створення',
     hero_title: 'Українська громада Кекави',
     hero_subtitle: 'Разом ми - сила! Разом ми - громада!',
     hero_desc: '"Українська спільнота Кекави" — це простір підтримки, єднання та дії для українців у Кекавському краї. Ми створюємо можливості для адаптації, самореалізації та культурної взаємодії. Долучайтесь до наших заходів, знайомтесь із проєктами та ставайте частиною дружньої спільноти.',
@@ -88,6 +90,9 @@ window.translations = {
     ,history_experts_title: 'Експерти, які допомагають нам'
     ,expert_role_hanna: 'Політолог, запрошений експерт (Dr), Латвійський університет'
     ,expert_desc_hanna: 'Аналізує як функціонує громада в інтеграційній політиці, допомагає формулювати різні позиції та інтереси української спільноти.'
+    ,expert_name_nataliia: 'Солдатова Наталія'
+    ,expert_role_nataliia: 'Українська юристка, дослідниця, громадська активістка'
+    ,expert_desc_nataliia: 'Українська юристка, дослідниця, громадська активістка'
     ,team_name_irina: 'Ірина Бондарчук'
     ,team_name_lidia: 'Лідія Репко'
     ,team_name_artem: 'Артем Репко'
@@ -135,6 +140,8 @@ window.translations = {
     ,timeline_text_organization: '2025 рік став новим етапом. У липні 2025 року ми заснували офіційну організацію "Ukrainas kopiena Ķekavā – starptautiskās sadarbības, kultūras un attīstības centrs", що відкрило ширші можливості для участі у місцевих, регіональних та міжнародних проєктах. Сьогодні громада об\'єднує понад 400 активних членів (які планують лишатися в Латвії на завжди). Ми продовжуємо зростати, підтримуючи один одного, розвиваючи спільні ідеї та зберігаючи головне — українське серце в Латвії.'
   },
   lv: {
+    site_title: 'Ukrainas kopiena Ķekavā',
+    site_title_history: 'Ukrainas kopiena Ķekavā - Izveides vēsture',
     hero_title: 'Ukrainas kopiena Ķekavā',
     hero_subtitle: 'Kopā mēs esam spēks! Kopā mēs esam kopiena!',
     hero_desc: '“Ukrainas kopiena Ķekavā” ir atbalsta, vienotības un rīcības telpa ukraiņiem Ķekavas novadā. Mēs radām iespējas adaptācijai, pašrealizācijai un kultūras mijiedarbībai. Pievienojieties mūsu pasākumiem, iepazīstiet projektus un kļūstiet par draudzīgas kopienas daļu.',
@@ -223,6 +230,9 @@ window.translations = {
     ,history_experts_title: 'Eksperti, kas mums palīdz'
     ,expert_role_hanna: 'Politologs, viespētnieks (Dr), Latvijas Universitāte'
     ,expert_desc_hanna: 'Analizē, kā funkcionē kopiena integrācijas politikā, palīdz formulēt dažādas pozīcijas un intereses ukraiņu kopienai.'
+    ,expert_name_nataliia: 'Soldatova Nataliia'
+    ,expert_role_nataliia: 'Ukrainas juriste, pētniece, sabiedriskā aktīviste'
+    ,expert_desc_nataliia: 'Ukrainas juriste, pētniece, sabiedriskā aktīviste'
     ,team_name_irina: 'Irina Bondarčuk'
     ,team_name_lidia: 'Lidija Repko'
     ,team_name_artem: 'Artem Repko'
@@ -270,6 +280,8 @@ window.translations = {
     ,timeline_text_organization: '2025. gads kļuva par jaunu posmu. 2025. gada jūlijā mēs dibinājām oficiālo organizāciju "Ukrainas kopiena Ķekavā – starptautiskās sadarbības, kultūras un attīstības centrs", kas atvēra plašākas iespējas dalībai vietējos, reģionālos un starptautiskos projektos. Šodien kopiena apvieno vairāk nekā 400 aktīvu locekļu (kas plāno palikt Latvijā uz visiem laikiem). Mēs turpinām augt, atbalstot viens otru, attīstot kopīgas idejas un saglabājot galveno — ukraiņu sirdi Latvijā.'
   },
   en: {
+    site_title: 'Ukrainian community in Ķekava',
+    site_title_history: 'Ukrainian community in Ķekava - Creation History',
     hero_title: 'Ukrainian community in Ķekava',
     hero_subtitle: 'Together we are strong! Together we are a community!',
     hero_desc: 'The “Ukrainian community in Ķekava” is a space of support, unity, and action for Ukrainians in the Ķekava region. We create opportunities for adaptation, self-realization, and cultural exchange. Join our events, discover our projects, and become part of a friendly community.',
@@ -358,6 +370,9 @@ window.translations = {
     ,history_experts_title: 'Experts who help us'
     ,expert_role_hanna: 'Political scientist, visiting expert (Dr), University of Latvia'
     ,expert_desc_hanna: 'Analyzes how the community functions in integration policy, helps formulate various positions and interests of the Ukrainian community.'
+    ,expert_name_nataliia: 'Soldatova Nataliia'
+    ,expert_role_nataliia: 'Ukrainian lawyer, researcher, public activist'
+    ,expert_desc_nataliia: 'Ukrainian lawyer, researcher, public activist'
     ,team_name_irina: 'Iryna Bondarchuk'
     ,team_name_lidia: 'Lidiia Repko'
     ,team_name_artem: 'Artem Repko'
