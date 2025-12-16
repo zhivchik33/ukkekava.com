@@ -23,6 +23,110 @@
         "description_lv": "Ukraiņu radošo kolektīvu koncerts, bērnu darbu izstāde - gleznas, atklātnes un izstrādājumi — un spilgta rudens izstāde ar krāsotiem ķirbjiem",
         "description_en": "Concert of Ukrainian creative groups, exhibition of children's works - paintings, postcards and crafts — and a bright autumn exhibition of painted pumpkins"
       }
-    ]
-  }
-} 
+    ],
+        "2025-08-06": [
+          {
+            "title_ua": "SUP-прогулянка в Сігулді",
+            "title_lv": "SUP brauciens Siguldā",
+            "title_en": "SUP Trip in Sigulda",
+            "time": "11:00",
+            "location": "Purva iela 29, Sigulda, Siguldas novads, LV-2150",
+            "description_ua": "SUP-прогулянка з насолодою краєвидами долини Гауї, дослідження природи та історії місцевості.",
+            "description_lv": "SUP brauciens ar Gaujas ielejas ainavu baudīšanu, dabas un vēstures izzināšana.",
+            "description_en": "SUP trip with scenic views of the Gauja valley, exploring nature and local history."
+          }
+        ],
+    
+        "2025-09-19": [
+          {
+            "title_ua": "Навчання волонтерів української громади Ķekavā",
+            "title_lv": "Ukraiņu kopienas Ķekavā brīvprātīgo apmācība",
+            "title_en": "Volunteer Training of the Ukrainian Community in Ķekava",
+            "time": "17:00",
+            "location": "Skolas iela 2, Ķekava, Ķekavas novads, LV-2123",
+            "description_ua": "Навчання для волонтерів: правила волонтерської діяльності в Латвії, права та можливості волонтерів, програма Erasmus і пошук міжнародних проєктів.",
+            "description_lv": "Apmācība brīvprātīgajiem: brīvprātīgā darba noteikumi Latvijā, tiesības un iespējas, Erasmus programma un projektu meklēšana.",
+            "description_en": "Volunteer training covering rules of volunteering in Latvia, volunteers’ rights and opportunities, and Erasmus programme project search."
+          }
+        ],
+    
+        "2025-09-20": [
+          {
+            "title_ua": "Екскурсійно-мовний міні-квест «Гра в магазині»",
+            "title_lv": "Ekskursiju-valodas mini kvests “Spēle veikalā”",
+            "title_en": "Excursion & Language Mini-Quest “Shopping Game”",
+            "time": "17:00",
+            "location": "Ķekavas reģions",
+            "description_ua": "Мовний квест з практикою латиської мови у реальних життєвих ситуаціях.",
+            "description_lv": "Valodas kvests ar latviešu valodas praksi reālās dzīves situācijās.",
+            "description_en": "Language quest practicing Latvian in real-life situations."
+          }
+        ],
+    
+        "2025-09-23": [
+          {
+            "title_ua": "Північно-Балтійська конференція: бібліотека як громадський центр",
+            "title_lv": "Ziemeļbaltijas konference: bibliotēka kā kopienas centrs",
+            "title_en": "Nordic-Baltic Conference: Library as a Community Hub",
+            "time": "12:00–17:00",
+            "location": "Krasta iela 31, Rēzekne, LV-4601",
+            "description_ua": "Конференція, присвячена ролі бібліотек у громадському житті та інтеграції українців у латвійське суспільство.",
+            "description_lv": "Konference par bibliotēku lomu sabiedriskajā dzīvē un ukraiņu integrāciju Latvijā.",
+            "description_en": "Conference focused on libraries as community centers and integration of Ukrainians into Latvian society."
+          }
+        ],
+    
+        "2025-10-13": [
+          {
+            "title_ua": "Вітаємо іммігрантів у Центральній та Східній Європі (WICE)",
+            "title_lv": "Imigrantu uzņemšana Centrālajā un Austrumeiropā (WICE)",
+            "title_en": "Welcoming Immigrants in Central and Eastern Europe (WICE)",
+            "time": "12:00",
+            "location": "Raiņa bulvāris 19, Rīga, LV-1586",
+            "description_ua": "Подія про етику та психологію досліджень з українськими респондентами в Латвії.",
+            "description_lv": "Pasākums par pētījumu ētiku un psiholoģiju darbā ar ukraiņu respondentiem Latvijā.",
+            "description_en": "Event on ethics and psychology of research involving Ukrainian respondents in Latvia."
+          }
+        ],
+    
+        "2025-11-13": [
+          {
+            "title_ua": "Факельна хода пам’яті в Баложі",
+            "title_lv": "Lāpu gājiens piemiņai Baložos",
+            "title_en": "Torchlight Memorial March in Baloži",
+            "time": "18:00",
+            "location": "Ezers “Titurgas”, Baloži, Ķekavas novads",
+            "description_ua": "Хода памʼяті від Будинку культури Баложі до озера Титурга.",
+            "description_lv": "Piemiņas gājiens no Baložu kultūras nama līdz Titurgas ezeram.",
+            "description_en": "Memorial march from Baloži Cultural Center to Titurgas Lake."
+          }
+        ],
+    
+        "2025-11-14": [
+          {
+            "title_ua": "Культурна орієнтація та інтеграція",
+            "title_lv": "Kultūras orientācija un integrācija",
+            "title_en": "Cultural Orientation and Integration",
+            "time": "10:00",
+            "location": "Mellupu sociālā māja",
+            "description_ua": "Співаємо, презентуємо українські традиції, разом готуємо, спілкуємося та ділимося теплом (у співпраці з Sarkanais Krusts Latvijā).",
+            "description_lv": "Dziedāšana, ukraiņu tradīciju prezentēšana, kopīga gatavošana un sirsnīga kopā būšana.",
+            "description_en": "Singing, presenting Ukrainian traditions, cooking together and sharing warmth."
+          }
+        ],
+    
+        "2025-12-22": [
+          {
+            "title_ua": "Бетанія: Теплі історії з какао",
+            "title_lv": "Betānija: Siltie stāsti ar kakao",
+            "title_en": "Bethany: Warm Stories with Cocoa",
+            "time": "11:30",
+            "location": "Drustu iela 36A, Rīga, LV-1002",
+            "description_ua": "Майстер-клас з приготування гарячого шоколаду та тепле спілкування.",
+            "description_lv": "Meistarklase karstās šokolādes gatavošanā un sirsnīgas sarunas.",
+            "description_en": "Workshop on making hot chocolate and warm conversations."
+          }
+        ]
+      }
+    }
+  
