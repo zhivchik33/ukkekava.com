@@ -1,0 +1,731 @@
+{
+  "photos": {
+    "culture": {
+      "2022": [
+        {
+          "src": "images/events/culture_2022_1.jpeg"
+        },
+        {
+          "src": "images/events/culture_2022_2.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_3.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_4.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_5.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_6.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_7.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_8.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_9.jpg"
+        },
+        {
+          "src": "images/events/culture_2022_10.jpg"
+        }
+      ],
+      "2023": [
+        {
+          "src": "images/events/culture_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/culture_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/culture_2023_3.jpeg"
+        },
+        {
+          "src": "images/events/culture_2023_4.jpeg"
+        },
+        {
+          "src": "images/events/culture_2023_5.jpeg"
+        },
+        {
+          "src": "images/events/culture_2023_6.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/culture_2024_1.jpg"
+        },
+        {
+          "src": "images/events/culture_2024_2.jpg"
+        },
+        {
+          "src": "images/events/culture_2024_3.jpg"
+        },
+        {
+          "src": "images/events/culture_2024_4.jpg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/culture_2025_1.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_2.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_3.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_4.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_5.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_6.jpg"
+        },
+        {
+          "src": "images/events/culture_2025_7.jpeg"
+        },
+        {
+          "src": "images/events/culture_2025_8.jpeg"
+        },
+        {
+          "src": "images/events/culture_2025_9.jpeg"
+        },
+        {
+          "src": "images/events/culture_2025_10.jpeg"
+        },
+        {
+          "src": "images/events/culture_2025_11.jpg"
+        }
+      ],
+      "2026": [
+        {
+          "src": "images/events/culture_2026_1.jpg"
+        },
+        {
+          "src": "images/events/culture_2026_2.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_3.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_4.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_5.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_6.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_7.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_8.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_9.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_10.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_11.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_12.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_13.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_14.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_15.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_16.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_17.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_18.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_19.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_20.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_21.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_22.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_23.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_24.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_25.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_26.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_27.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_28.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_29.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_30.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_31.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_32.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_33.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_34.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_35.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_36.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_37.jpeg"
+        },
+        {
+          "src": "images/events/culture_2026_38.jpeg"
+        }
+      ]
+    },
+    "social": {
+      "2023": [
+        {
+          "src": "images/events/social_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_3.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_4.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_5.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_6.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_7.jpeg"
+        },
+        {
+          "src": "images/events/social_2023_8.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/social_2024_1.jpg"
+        },
+        {
+          "src": "images/events/social_2024_2.jpg"
+        },
+        {
+          "src": "images/events/social_2024_3.jpg"
+        },
+        {
+          "src": "images/events/social_2024_4.jpg"
+        },
+        {
+          "src": "images/events/social_2024_5.jpg"
+        },
+        {
+          "src": "images/events/social_2024_6.jpg"
+        },
+        {
+          "src": "images/events/social_2024_7.jpg"
+        },
+        {
+          "src": "images/events/social_2024_8.jpg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/social_2025_1.jpg"
+        },
+        {
+          "src": "images/events/social_2025_2.jpg"
+        },
+        {
+          "src": "images/events/social_2025_3.jpg"
+        },
+        {
+          "src": "images/events/social_2025_4.jpg"
+        },
+        {
+          "src": "images/events/social_2025_5.jpg"
+        },
+        {
+          "src": "images/events/social_2025_6.jpg"
+        },
+        {
+          "src": "images/events/social_2025_7.jpg"
+        },
+        {
+          "src": "images/events/social_2025_8.jpg"
+        },
+        {
+          "src": "images/events/social_2025_9.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_10.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_11.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_12.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_13.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_14.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_15.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_16.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_17.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_18.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_19.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_20.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_21.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_22.jpeg"
+        },
+        {
+          "src": "images/events/social_2025_23.jpg"
+        },
+        {
+          "src": "images/events/social_2025_24.jpg"
+        },
+        {
+          "src": "images/events/social_2025_25.jpg"
+        },
+        {
+          "src": "images/events/social_2025_26.jpg"
+        },
+        {
+          "src": "images/events/social_2025_27.jpg"
+        },
+        {
+          "src": "images/events/social_2025_28.jpg"
+        },
+        {
+          "src": "images/events/social_2025_29.jpg"
+        }
+      ]
+    },
+    "education": {
+      "2022": [
+        {
+          "src": "images/events/education_2022_1.jpg"
+        },
+        {
+          "src": "images/events/education_2022_2.jpg"
+        },
+        {
+          "src": "images/events/education_2022_3.jpg"
+        },
+        {
+          "src": "images/events/education_2022_4.jpg"
+        },
+        {
+          "src": "images/events/education_2022_5.jpg"
+        },
+        {
+          "src": "images/events/education_2022_6.jpg"
+        }
+      ],
+      "2023": [
+        {
+          "src": "images/events/education_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/education_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/education_2023_3.jpeg"
+        },
+        {
+          "src": "images/events/education_2023_4.jpeg"
+        },
+        {
+          "src": "images/events/education_2023_5.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/education_2024_1.jpg"
+        },
+        {
+          "src": "images/events/education_2024_2.jpg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/edukation_2025_1.jpg"
+        },
+        {
+          "src": "images/events/edukation_2025_2.jpg"
+        },
+        {
+          "src": "images/events/edukation_2025_3.jpg"
+        },
+        {
+          "src": "images/events/edukation_2025_4.jpg"
+        },
+        {
+          "src": "images/events/edukation_2025_5.jpg"
+        },
+        {
+          "src": "images/events/edukation_2025_6.jpeg"
+        },
+        {
+          "src": "images/events/edukation_2025_7.jpeg"
+        },
+        {
+          "src": "images/events/edukation_2025_8.jpeg"
+        },
+        {
+          "src": "images/events/edukation_2025_9.jpeg"
+        },
+        {
+          "src": "images/events/education_2025_10.jpeg"
+        }
+      ],
+      "2026": [
+        {
+          "src": "images/events/edukation_2026_1.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_2.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_3.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_4.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_5.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_6.JPG"
+        },
+        {
+          "src": "images/events/edukation_2026_7.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_8.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_9.jpg"
+        },
+        {
+          "src": "images/events/edukation_2026_10.jpg"
+        }
+      ]
+    },
+    "humanitarian": {
+      "2022": [
+        {
+          "src": "images/events/humanitarian_2022_1.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_2.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_3.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_4.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_5.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_6.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_7.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_8.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_9.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2022_10.jpg"
+        }
+      ],
+      "2023": [
+        {
+          "src": "images/events/humanitarian_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/humanitarian_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/humanitarian_2023_3.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/humanitarian_2024_1.jpeg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/humanitarian_2025_1.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_2.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_3.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_4.jpeg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_5.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_6.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_7.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_8.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_9.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_10.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_11.jpg"
+        },
+        {
+          "src": "images/events/humanitarian_2025_12.jpg"
+        }
+      ]
+    },
+    "psychology": {
+      "2022": [
+        {
+          "src": "images/events/psychology_2022_1.jpg"
+        }
+      ],
+      "2023": [
+        {
+          "src": "images/events/psychology_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/psychology_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/psychology_2023_3.jpeg"
+        },
+        {
+          "src": "images/events/psychology_2023_4.jpeg"
+        },
+        {
+          "src": "images/events/psychology_2023_5.jpeg"
+        },
+        {
+          "src": "images/events/psychology_2023_6.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/psychology_2024_1.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_2.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_3.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_4.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_5.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_6.jpg"
+        },
+        {
+          "src": "images/events/psychology_2024_7.jpg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/psychologiy_2025_2.jpg"
+        },
+        {
+          "src": "images/events/psychologiy_2025_3.jpg"
+        },
+        {
+          "src": "images/events/psychologiy_2025_4.jpg"
+        },
+        {
+          "src": "images/events/psychologiy_2025_5.jpg"
+        }
+      ],
+      "2026": [
+        {
+          "src": "images/events/psychologiy_2026_1.jpg"
+        },
+        {
+          "src": "images/events/psychologiy_2026_2.jpeg"
+        },
+        {
+          "src": "images/events/psychologiy_2026_3.jpeg"
+        },
+        {
+          "src": "images/events/psychologiy_2026_4.jpeg"
+        },
+        {
+          "src": "images/events/psychologiy_2026_5.jpeg"
+        },
+        {
+          "src": "images/events/psychologiy_2026_6.jpeg"
+        }
+      ]
+    },
+    "civic": {
+      "2022": [
+        {
+          "src": "images/events/civic_2022_1.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_2.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_3.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_4.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_5.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_6.jpg"
+        },
+        {
+          "src": "images/events/civic_2022_7.jpg"
+        }
+      ],
+      "2023": [
+        {
+          "src": "images/events/civic_2023_1.jpeg"
+        },
+        {
+          "src": "images/events/civic_2023_2.jpeg"
+        },
+        {
+          "src": "images/events/civic_2023_3.jpeg"
+        },
+        {
+          "src": "images/events/civic_2023_4.jpeg"
+        },
+        {
+          "src": "images/events/civic_2023_5.jpeg"
+        },
+        {
+          "src": "images/events/civic_2023_6.jpeg"
+        }
+      ],
+      "2024": [
+        {
+          "src": "images/events/civic_2024_1.jpg"
+        },
+        {
+          "src": "images/events/civic_2024_2.jpg"
+        },
+        {
+          "src": "images/events/civic_2024_3.jpg"
+        },
+        {
+          "src": "images/events/civic_2024_4.jpg"
+        },
+        {
+          "src": "images/events/civic_2024_5.jpg"
+        }
+      ],
+      "2025": [
+        {
+          "src": "images/events/civic_2025_1.jpg"
+        },
+        {
+          "src": "images/events/civic_2025_2.jpg"
+        },
+        {
+          "src": "images/events/civic_2025_3.jpeg"
+        },
+        {
+          "src": "images/events/civic_2025_4.jpeg"
+        },
+        {
+          "src": "images/events/civic_2025_5.jpeg"
+        },
+        {
+          "src": "images/events/civic_2025_6.jpeg"
+        }
+      ]
+    }
+  }
+}
