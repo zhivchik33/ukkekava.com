@@ -1531,6 +1531,86 @@ form .btn.btn-primary {
   margin-bottom: 18px;
 }
 
+/* Секция "Наш статут" */
+.statute-section {
+  background: linear-gradient(45deg, #5c3d2e 0%, #8b5a3c 100%);
+  padding: 80px 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.statute-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.96);
+  border: 5px solid #ff7700;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.statute-header {
+  margin-bottom: 40px;
+}
+
+.statute-header .goals-badge-wrap {
+  justify-content: center;
+}
+
+.statute-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.statute-desc {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.statute-action {
+  display: flex;
+  justify-content: center;
+}
+
+.statute-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 260px;
+}
+
+@media (max-width: 768px) {
+  .statute-section {
+    padding: 60px 16px;
+  }
+
+  .statute-container {
+    padding: 36px 24px;
+  }
+
+  .statute-title {
+    font-size: 2rem;
+  }
+
+  .statute-desc {
+    font-size: 1.05rem;
+  }
+
+  .statute-btn {
+    min-width: 220px;
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
 /* Специальный стиль для красного сердца в карточке психологической поддержки */
 .goal-card:nth-child(5) .goal-icon,
 .heart-icon {

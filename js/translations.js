@@ -6,6 +6,7 @@ window.translations = {
     hero_subtitle: 'Разом ми - сила! Разом ми - громада!',
     hero_desc: '"Українська спільнота Кекави" — це простір підтримки, єднання та дії для українців у Кекавському краї. Ми створюємо можливості для адаптації, самореалізації та культурної взаємодії. Долучайтесь до наших заходів, знайомтесь із проєктами та ставайте частиною дружньої спільноти.',
     nav_home: 'Головна',
+    nav_statute: 'Наш статут',
     nav_team: 'Наша команда',
     donate_btn: 'Підтримати нас',
     donate_title: 'Підтримати нас',
@@ -34,6 +35,10 @@ window.translations = {
     ,events_intro: 'Перегляньте наші найкращі моменти та події української спільноти Кекави'
     ,all_years: 'Всі роки'
     ,goals_badge: 'Наша мета'
+    ,statute_badge: 'Офіційні документи'
+    ,statute_title: 'Наш статут'
+    ,statute_desc: 'Ознайомтеся з офіційним статутом «Української громади Кекави» — документом, що визначає наші цілі, принципи та порядок діяльності організації.'
+    ,statute_btn: 'Переглянути статут'
     ,goals_title: '"Українська громада Кекави" створена з метою об\'єднання, підтримки та розвитку української спільноти в Кекавському краї та Латвії. Наша діяльність спрямована на:'
     ,goal1_title: 'Збереження української культури та ідентичності'
     ,goal1_desc: 'Популяризація українських традицій, мови, мистецтва та історичної спадщини.'
@@ -72,6 +77,7 @@ window.translations = {
     ,social_headline: 'ДОЄДНУЙСЯ ДО\nНАШИХ\nСОЦМЕРЕЖ'
     ,social_paragraph: 'Слідкуй за "Українською Громадою Кекави". Будь в курсі наших подій та заходів.'
     ,footer_home: 'Головна'
+    ,footer_statute: 'Наш статут'
     ,footer_history: 'Наша команда'
     ,privacy_policy: 'Політика конфіденційності'
     ,history_title: 'Наша команда'
@@ -80,8 +86,8 @@ window.translations = {
     ,history_team_title: 'Люди, які створюють громаду'
     ,history_volunteers_badge: 'Наші волонтери'
     ,history_volunteers_title: 'Люди, які допомагають щодня'
-    ,team_role_irina: 'Засновниця, психологиня та психотерапевтка'
-    ,team_role_lidia: 'Співзасновниця, кураторка проєктів'
+    ,team_role_irina: 'Засновниця, психологиня та психотерапевтка, член правління'
+    ,team_role_lidia: 'Співзасновниця, кураторка проєктів, член правління'
     ,team_role_artem: 'Технічна підтримка, Fullstack розробник'
     ,team_desc_irina: 'Координує всі процеси та підтримує команду та клієнтів з турботою та професійністю.'
     ,team_desc_lidia: 'Відповідає за візуальний стиль та рекламу. Створює красу для соціальних мереж та розробляє рекламні стратегії.'
@@ -146,6 +152,7 @@ window.translations = {
     hero_subtitle: 'Kopā mēs esam spēks! Kopā mēs esam kopiena!',
     hero_desc: '“Ukrainas kopiena Ķekavā” ir atbalsta, vienotības un rīcības telpa ukraiņiem Ķekavas novadā. Mēs radām iespējas adaptācijai, pašrealizācijai un kultūras mijiedarbībai. Pievienojieties mūsu pasākumiem, iepazīstiet projektus un kļūstiet par draudzīgas kopienas daļu.',
     nav_home: 'Sākums',
+    nav_statute: 'Mūsu statūts',
     nav_team: 'Mūsu komanda',
     donate_btn: 'Atbalstīt mūs',
     donate_title: 'Atbalstīt mūs',
@@ -174,6 +181,10 @@ window.translations = {
     ,events_intro: 'Skatiet mūsu labākos mirkļus un pasākumus Ukrainas kopienā Ķekavā'
     ,all_years: 'Visi gadi'
     ,goals_badge: 'Mūsu mērķis'
+    ,statute_badge: 'Oficiālie dokumenti'
+    ,statute_title: 'Mūsu statūts'
+    ,statute_desc: 'Iepazīstieties ar oficiālo "Ukrainas kopienas Ķekavā" statūtu — dokumentu, kas nosaka mūsu mērķus, principus un organizācijas darbības kārtību.'
+    ,statute_btn: 'Skatīt statūtu'
     ,goals_title: '"Ukrainas kopiena Ķekavā" izveidota ar mērķi apvienot, atbalstīt un attīstīt ukraiņu kopienu Ķekavas novadā un Latvijā. Mūsu darbība vērsta uz:'
     ,goal1_title: 'Ukrainas kultūras un identitātes saglabāšana'
     ,goal1_desc: 'Ukrainas tradīciju, valodas, mākslas un vēsturiskā mantojuma popularizēšana.'
@@ -212,6 +223,7 @@ window.translations = {
     ,social_headline: 'PIEVIENOJIES\nMŪSU\nSOCIĀLAJIEM TĪKLIEM'
     ,social_paragraph: 'Seko "Ukrainas kopienai Ķekavā". Uzzini par mūsu pasākumiem un aktivitātēm.'
     ,footer_home: 'Sākums'
+    ,footer_statute: 'Mūsu statūts'
     ,footer_history: 'Mūsu komanda'
     ,privacy_policy: 'Privātuma politika'
     ,history_title: 'Mūsu komanda'
@@ -220,8 +232,8 @@ window.translations = {
     ,history_team_title: 'Cilvēki, kas rada kopienu'
     ,history_volunteers_badge: 'Mūsu brīvprātīgie'
     ,history_volunteers_title: 'Cilvēki, kas palīdz katru dienu'
-    ,team_role_irina: 'Dibinātāja, psiholoģe un psihoterapeite'
-    ,team_role_lidia: 'Līdzdibinātāja, projektu kuratore'
+    ,team_role_irina: 'Dibinātāja, psiholoģe un psihoterapeite, valdes locekle'
+    ,team_role_lidia: 'Līdzdibinātāja, projektu kuratore, valdes locekle'
     ,team_role_artem: 'Tehniskā atbalsta, Fullstack izstrādātājs'
     ,team_desc_irina: 'Koordinē visus procesus un atbalsta komandu un klientus ar rūpēm un profesionalitāti.'
     ,team_desc_lidia: 'Atbild par vizuālo stilu un reklāmu. Radīs skaistumu sociālajām tīkliem un izstrādā reklāmas stratēģijas.'
@@ -286,6 +298,7 @@ window.translations = {
     hero_subtitle: 'Together we are strong! Together we are a community!',
     hero_desc: 'The “Ukrainian community in Ķekava” is a space of support, unity, and action for Ukrainians in the Ķekava region. We create opportunities for adaptation, self-realization, and cultural exchange. Join our events, discover our projects, and become part of a friendly community.',
     nav_home: 'Home',
+    nav_statute: 'Our statute',
     nav_team: 'Our team',
     donate_btn: 'Donate',
     donate_title: 'Support Us',
@@ -314,6 +327,10 @@ window.translations = {
     ,events_intro: 'See our best moments and events of the Ukrainian community in Ķekava'
     ,all_years: 'All years'
     ,goals_badge: 'Our goal'
+    ,statute_badge: 'Official documents'
+    ,statute_title: 'Our statute'
+    ,statute_desc: 'Read the official statute of the "Ukrainian Community in Ķekava" — the document that defines our goals, principles, and organizational procedures.'
+    ,statute_btn: 'View statute'
     ,goals_title: 'The “Ukrainian community in Ķekava” was created to unite, support, and develop the Ukrainian community in the Ķekava region and Latvia. Our activities are aimed at:'
     ,goal1_title: 'Preserving Ukrainian culture and identity'
     ,goal1_desc: 'Promoting Ukrainian traditions, language, arts, and historical heritage.'
@@ -352,6 +369,7 @@ window.translations = {
     ,social_headline: 'JOIN\nOUR\nSOCIALS'
     ,social_paragraph: 'Follow the "Ukrainian Community in Ķekava". Stay updated on our events and activities.'
     ,footer_home: 'Home'
+    ,footer_statute: 'Our statute'
     ,footer_history: 'Our team'
     ,privacy_policy: 'Privacy Policy'
     ,history_title: 'Our team'
@@ -360,8 +378,8 @@ window.translations = {
     ,history_team_title: 'People who create the community'
     ,history_volunteers_badge: 'Our volunteers'
     ,history_volunteers_title: 'People who help every day'
-    ,team_role_irina: 'Founder, psychologist and psychotherapist'
-    ,team_role_lidia: 'Co-founder, project curator'
+    ,team_role_irina: 'Founder, psychologist and psychotherapist, board member'
+    ,team_role_lidia: 'Co-founder, project curator, board member'
     ,team_role_artem: 'Technical support, Fullstack developer'
     ,team_desc_irina: 'Coordinates all processes and supports the team and clients with care and professionalism.'
     ,team_desc_lidia: 'Responsible for visual style and advertising. Creates beauty for social media and develops advertising strategies.'

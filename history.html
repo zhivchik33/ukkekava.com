@@ -120,6 +120,9 @@
     .team-info { padding: 18px 20px 20px; text-align: left; }
     .team-info h3 { margin: 4px 0 6px; color: #2c3e50; font-size: 1.25rem; }
     .team-role { color: #ffc400; font-weight: 700; margin-bottom: 8px; }
+    .team-contact { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+    .team-contact a { color: #2c3e50; font-size: .95rem; text-decoration: none; }
+    .team-contact a:hover { color: #ffc400; text-decoration: underline; }
     .team-info p { color: #6c757d; font-size: .98rem; line-height: 1.6; margin: 0 0 12px; }
     .team-social { display: flex; gap: 10px; }
     .team-social a { width: 36px; height: 36px; border-radius: 50%; background: #f1f3f5; display: inline-flex; align-items: center; justify-content: center; transition: background .2s ease, transform .2s ease; }
@@ -162,7 +165,11 @@
           </div>
           <div class="team-info">
             <h3 data-i18n="team_name_irina">Ірина Бондарчук</h3>
-            <div class="team-role" data-i18n="team_role_irina">Засновниця, психологиня та психотерапевтка</div>
+            <div class="team-role" data-i18n="team_role_irina">Засновниця, психологиня та психотерапевтка, член правління</div>
+            <div class="team-contact">
+              <a href="mailto:ladysunirina@gmail.com">ladysunirina@gmail.com</a>
+              <a href="tel:+37125373821">+371 25 373 821</a>
+            </div>
             <p data-i18n="team_desc_irina">Координує всі процеси та підтримує команду та клієнтів з турботою та професійністю.</p>
             <div class="team-social">
               <a href="#" aria-label="Instagram" title="Instagram">
@@ -185,7 +192,10 @@
           </div>
           <div class="team-info">
             <h3 data-i18n="team_name_lidia">Лідія Репко</h3>
-            <div class="team-role" data-i18n="team_role_lidia">Співзасновниця, кураторка проєктів</div>
+            <div class="team-role" data-i18n="team_role_lidia">Співзасновниця, кураторка проєктів, член правління</div>
+            <div class="team-contact">
+              <a href="mailto:Lidiarepko6@gmail.com">Lidiarepko6@gmail.com</a>
+            </div>
             <p data-i18n="team_desc_lidia">Відповідає за візуальний стиль та рекламу. Створює красу для соціальних мереж та розробляє рекламні стратегії.</p>
             <div class="team-social">
               <a href="#" aria-label="Instagram" title="Instagram">
@@ -588,6 +598,7 @@
       <!-- Navigation Links -->
       <nav class="footer-nav">
         <a href="index.html" class="nav-link" data-i18n="footer_home">Головна</a>
+        <a href="index.html#statute" class="nav-link" data-i18n="footer_statute">Наш статут</a>
         <a href="history.html" class="nav-link active" data-i18n="footer_history">Історія створення</a>
       </nav>
       
